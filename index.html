@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<Link href="style.css" rel="stylesheet" tyle="text/css">
+	<style>
+		
+	</style>
+</head>
+
+<body>
+	<main><header>
+		<h1>
+			Moje notatki-WTF CO TEN FRONTEND
+		</h1>
+	</header>
+		<header>
+			<h2>
+				M2/PODSTAWOWE ZNACZNIKI
+			</h2>
+		</header>
+		<section>
+			<article>
+			<h3> &lt;main&gt;</h3>
+			<p>Jest zawsze jeden na stronie i zaczyna główną treść, główna część dokumentu</p>
+
+			<h3>&lt;section&gt;</h3>
+			<p>Oznacza sekcję dokumentu
+			Półka w sklepie, na której znajdują się artykuły, sekcja może zawierać w sobie parę artykułów</p>
+
+			<h3>&lt;article&gt;</h3>
+			<p>Jest samodzielną treścią, wchodząca w zawartość section, jakbyśmy ja wyjęli z section to może istnieć
+				samodzielnie. Uwaga artykuł może mieć sekcje, np wewnątr dużego artukułu mogą być sekcje</p>
+
+			<h3>&lt;header&gt;</h3>
+			<p>Nagłówek dokumentu, sekcji, artykułu (tzn być w wymieniownych znacznikach), takie pudełko dla nagłówków,
+				powinny być stopniowane</p>
+
+			<h3>&lt;footer&gt;</h3>
+			<p>Stopka dokumentu, sekcji, artykułu</p>
+
+			<h3>&lt;h1-h6&gt; Tekstowe nagłówki tytułowe</h3>
+			<p>Numerowane od h1 do h6, nie ma h7, nagłówek header powienien jeszcze dodatkowo opakowywać ten nagłówek,
+				zawsze z małej litery, tylko to jest już tekstowy nagłówek, rozumiem, że strikte to co jest w nim już
+				napisane</p>
+			</article>
+			<article>
+				<header>
+					<h2>
+						M2/PODSTAWY CSS
+					</h2>
+				</header>
+				<section>
+					<h3>CSS-Cascading Style Sheets</h3>
+					<h3> Budowa CSS</h3>
+					<p>CSS zbudowany jest z reguł</p>
+					<h4>
+					<p>selektor nawias z dziubkiem właściwość dwukropek wartość średnik</p>
+					</h4>
+					<p>selektor-to co będziemy ostylowywać</p>
+					<p>właściwość-np kolor</p>
+					<p>wartość-np zapis tego koloru w RGB, który ma być przypisany do naszego selektora</p>
+				</section>
+					<h3>Gdzie wprowadzamy style?</h3>
+					<p>Style wprowadzamy w sekcji head ponieważ mamy tam informacje potrebne do wyświetlania strony, nie czytamy tych informacji jako użytkownicy, ale dla przeglądarki są one istotne w kontekście wyświetlania</p>
+					<p>Nie jest bardzo częste, ze się opisuje tak każdy styl, dlatego wymyślono pliki CSS, aby mogły być w osobym pliku i utrzymać porządek w projekcie, do dołączenia tych styli w naszym projekcie służy znacznik link</p>
+
+				</article>
+			<footer>
+				<p>Notatki wykonane przez Monikę P na podstawie kursu WTF co ten Frontend</p>
+			</footer>
+
+		</section>
+	</main>
+
+</body>
+
+</html>
